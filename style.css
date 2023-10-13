@@ -1,0 +1,94 @@
+body{
+    background-color: lightblue;
+}
+
+.heading{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 600px;
+}
+
+.main{
+    background-color: aqua;
+    max-height: 600mm;
+    max-width: 300mm;
+    position: relative;
+    margin-top: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.label{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+input{
+    background-color: aquamarine;
+    border: black solid 1px;
+    color: hotpink;
+    font-size: unset;
+    font-weight: 500;
+    padding: 3px;
+}
+
+#listitems{
+    margin-top: 20px;
+}
+
+.list_items{
+    font-size: 1.2em;
+    border: indigo 1px solid;
+    height: 27px;
+    width: 407px;
+    overflow: hidden;
+    background-color: fuchsia;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#btn{
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: honeydew;
+    border: tan 2px solid;
+    color: grey;
+}
+
+.btn-list{
+    margin-left: 200px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: red;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-top: 1px;
+    background-color: red;
+    height: 30px;
+    width: 14px;
+}
+
+.div-list{
+    display: flex;
+    position: relative;
+    left: 110px;
+    top: -23px;
+}
+
+@media screen and (max-width: 500px){        
+    .heading{
+        margin-left: 0px;
+    }  
+    .list_items{
+        width: 300px;
+    }
+    .btn-list{
+        margin-left: 100px;
+    }
+}
